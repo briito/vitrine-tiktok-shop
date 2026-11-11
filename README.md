@@ -1,1 +1,1 @@
-# vitrine-tiktok-shop
+# Vitrine TikTok Shop
