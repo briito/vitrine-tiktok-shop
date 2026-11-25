@@ -42,3 +42,6 @@ h1 .marketplace-title-icon {
   vertical-align:-0.08em;
   margin-left:0.18em;
 }
+
+/* Ícones de presente e lupa no painel ilustrativo da vitrine. */
+.art-card .art-icon{width:46px;height:46px;display:block;flex-shrink:0;color:inherit}
