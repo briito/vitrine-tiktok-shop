@@ -1,11 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Descubra achadinhos e produtos selecionados na vitrine independente de afiliados Radar F5 Shop.">
+    <meta name="theme-color" content="#0c0b10">
+    <title>Achadinhos TikTok Shop | Radar F5 Shop</title>
+    <link rel="stylesheet" href="assets/styles.css" defer>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
-<body>
-    <h1>Vitrine Tik Tok Shop - Projeto em Construção</h1>
+
+<body><a class="skip" href="#produtos">Pular para produtos</a>
+    <header class="topbar">
+        <div class="container nav"><a class="brand" href="./"
+                aria-label="Radar F5 Shop, página inicial desta vitrine"><img class="brand-logo"
+                    src="assets/logo-shop.webp" alt="" width="54" height="42"><span>Radar F5
+                    <strong>Shop</strong><small>Vitrine de achadinhos</small></span></a><a class="back"
+                href="https://radarf5.com.br/">← Voltar ao Radar F5</a></div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div><span class="eyebrow">VITRINE INDEPENDENTE DE AFILIADOS</span>
+                    <h1>Achadinhos do TikTok Shop<span>.</span></h1>
+                    <p>Explore produtos selecionados para o seu dia a dia. Gostou de algo? Confira a oferta diretamente
+                        na TikTok Shop.</p><a class="hero-link" href="#produtos">Explorar produtos ↓</a>
+                </div>
+                <div class="hero-art" aria-hidden="true">
+                    <div class="art-card art-one">✦<small>Descubra</small></div>
+                    <div class="art-card art-two">▦<small>Explore</small></div>
+                    <div class="art-circle">OFERTAS<br> & ACHADINHOS</div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog container" id="produtos">
+            <div class="section-head">
+                <div><span class="section-kicker">SELEÇÃO RADAR F5</span>
+                    <h2>Explore por categoria</h2>
+                    <p>Encontre ideias e produtos interessantes sem sair navegando por dezenas de páginas.</p>
+                </div><span class="count" id="count" aria-live="polite"></span>
+            </div>
+            <div class="filters" id="filters" role="group" aria-label="Filtrar produtos por categoria"></div>
+            <div class="grid" id="grid" aria-live="polite"></div>
+            <div class="empty" id="empty" hidden>
+                <div class="empty-icon">✦</div>
+                <h3>Novidades a caminho!</h3>
+                <p>Estamos preparando nossa seleção de achadinhos. Volte em breve para descobrir os produtos.</p><a
+                    href="https://radarf5.com.br/">Conhecer outras vitrines ↗</a>
+            </div>
+        </section>
+        <section class="notice-band">
+            <div class="container notice-inner"><span aria-hidden="true">ⓘ</span>
+                <p>Os preços apresentados são informativos e podem sofrer alterações sem aviso prévio. Consulte o valor
+                    atualizado, a disponibilidade e as condições de compra diretamente na plataforma parceira.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-top">
+            <div>
+                <div class="footer-title">Radar F5 Shop <span>✦</span></div>
+                <p>Uma seleção independente para você descobrir produtos e conferir ofertas nos marketplaces.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Informações</h3><a href="legal/privacidade.html">Política de Privacidade</a><a
+                    href="legal/termos.html">Termos de Uso</a><a href="legal/cookies.html">Política de Cookies</a><a
+                    href="https://radarf5.com.br/">Página principal ↗</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p><strong>Transparência:</strong> Esta vitrine contém links de afiliados. Podemos receber uma comissão por
+                compras qualificadas realizadas por esses links, sem custo adicional para você.</p>
+            <p>© <span id="year"></span> Radar F5 Shop. Vitrine independente, não oficial da TikTok Shop.</p>
+        </div>
+    </footer>
+    <script src="assets/products.js"></script>
+    <script src="assets/app.js"></script>
 </body>
+
 </html>
